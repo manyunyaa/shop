@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Войти или создать профиль</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+    <h2 style="color:Firebrick">Модный интернет-магазин одежды MANYAO</h2>
+    <h2 style="color:Firebrick">Всегда на связи!<br> Тел.: +7-(919)-000-56-78</h2>
+    <h2 style="color:Firebrick">Мы в соцсетях: <br> inst: MANYAO_SHOP</h2>
+</div>
+ <div class="container">
+        <form action="" method="POST">
+        <h1>Создать профиль</h1>
+            <hr>
+            <label for="phone_number"><b>Номер телефона</b></label>
+            <input type="text" placeholder="8" name="phone_number" required>
+            <label for="pass"><b>Пароль</b></label>
+            <input type="password" placeholder="" name="pass" required>
+            <label for="repeatpass"><b>Повторите пароль</b></label>
+            <input type="password" placeholder="" name="repeatpass" required>
+            <hr>
+            <button type="submit">Зарегистрироватся</button>
+        </form>
+    </div>
+    <div class="container"><p>Уже есть аккаунт? <a href="lk.php">Войти</a>.</p></div>
+<?php endif; ?>
+</body>
+</html>
